@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init -y)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(sudo -E bash -)",
+      "Read(//etc/**)",
+      "Bash(node:*)",
+      "Bash(npm --version)",
+      "Bash(echo $PATH)",
+      "Read(//wsl.localhost/Debian/usr/bin/**)",
+      "Bash(sudo apt:*)",
+      "Read(//wsl.localhost/Debian/proc/**)",
+      "Bash(npm run dev)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

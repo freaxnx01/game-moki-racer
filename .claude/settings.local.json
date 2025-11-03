@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where:*)",
+      "Bash(nul)",
+      "Bash(\"/c/Program Files/Extreme TuxRacer/ExtremeTuxRacer.exe\" --version)",
+      "Bash(mkdir:*)",
+      "Bash(powershell.exe -Command \"New-Item -ItemType Directory -Force -Path ''C:\\Program Files\\Extreme TuxRacer\\data\\char\\moki''\")",
+      "Bash(wsl -d Debian -- bash -c:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
